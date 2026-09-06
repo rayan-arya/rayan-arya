@@ -1,7 +1,5 @@
 ### Hi, I'm Rayan 👋
 
-I build AI systems: voice agents, on-device inference, and agent safety.
-
 🎓 B.S. Data Science & Artificial Intelligence, **University of Miami** '29 · Foote Fellows Honors Program
 🔬 ML research at the **UM Frost Institute for Data Science & Computing**
 🚀 Co-founder & engineer at **Alfred**, full-stack at **TimelyCal**
@@ -21,8 +19,8 @@ I build AI systems: voice agents, on-device inference, and agent safety.
 **Alfred**: screen-aware voice AI co-pilot for macOS and Windows
 [![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)](#) [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](#) [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)](#) [![Co-founder](https://img.shields.io/badge/Co--founder%20%C2%B7%20406%2F1026%20commits-1f6feb?style=flat)](#)
 🖥️ Watches your screen through the macOS accessibility tree, listens on a hotkey, and either narrates the next click or performs it for you.
-⚙️ I own the Swift 6 client: a concurrency-safe `AXUIElement` walker, ScreenCaptureKit capture, and on-device WhisperKit speech.
-🪟 Solo-built the Windows port from nothing: 12k lines of Python, plus CI that signs an installer and smoke-tests it on a clean runner.
+⚙️ Anish and I built the Swift 6 macOS client together: a concurrency-safe `AXUIElement` walker, ScreenCaptureKit capture, and on-device WhisperKit speech.
+☁️ Backed by a Cloudflare Worker with Durable Objects for session state and per-user budgets, plus a circuit breaker on upstream model calls.
 
 &nbsp;
 

@@ -11,9 +11,9 @@ Things I've built that people can actually use. Some are startups, some are hack
 
 A screen-aware, voice-activated AI co-pilot for macOS and Windows. Hit a hotkey, ask a question out loud, and Alfred reads the frontmost app's accessibility tree plus a screenshot and either walks you through the next click or performs the action itself.
 
-🖥️ **macOS client (mine).** Swift 6 / SwiftUI menu-bar app. The capture layer is a dedicated actor that walks `AXUIElement` trees with depth and element caps, works around an AppKit main-thread assertion on menu roles, and falls back to Vision OCR when the tree comes back sparse. Speech is on-device via WhisperKit.
+🖥️ **macOS client.** Anish and I built this together. Swift 6 / SwiftUI menu-bar app. The capture layer is a dedicated actor that walks `AXUIElement` trees with depth and element caps, works around an AppKit main-thread assertion on menu roles, and falls back to Vision OCR when the tree comes back sparse. Speech is on-device via WhisperKit.
 ☁️ **Edge backend.** A Cloudflare Worker with three Durable Object classes (per-session conversation state, per-user budget, and a circuit breaker for upstream calls), eight named rate limiters, an idempotency layer, and AES-256-GCM encryption of pre-redaction training data in R2.
-🪟 **Windows port (solo).** I built the original Windows 11 client end to end: 12k lines of Python over PySide6, UI Automation, and Windows Graphics Capture, with a 15-step CI pipeline that builds a signed installer, installs it on a clean runner, and smoke-tests the installed binary.
+🪟 **Windows.** There is a Tauri/Rust Windows client as well, so the product is not Mac-only.
 🔐 A class holding a hardcoded API key was deleted after a security audit, and the file it lived in is now a tombstone comment explaining why. Good hygiene is more interesting than a clean history that hides the fix.
 
 > Repo lives under my co-founder's account. Team: Anish Guntreddi (backend/AI), Markus Corredor (finance/GTM).
