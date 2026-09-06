@@ -1,6 +1,6 @@
 ### Hi, I'm Rayan 👋
 
-I build AI systems that run where the user already is: on the desktop, in the browser, over the phone. Lately that means voice agents, on-device inference, and the unglamorous safety plumbing that keeps an agent from doing something irreversible.
+I build AI systems: voice agents, on-device inference, and agent safety.
 
 🎓 B.S. Data Science & Artificial Intelligence, **University of Miami** '29 · Foote Fellows Honors Program
 🔬 ML research at the **UM Frost Institute for Data Science & Computing**
